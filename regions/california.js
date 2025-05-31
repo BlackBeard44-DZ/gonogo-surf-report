@@ -1,4 +1,4 @@
-const apiKey = 92e13e58-3c03-11f0-89da-0242ac130006-92e13ec6-3c03-11f0-89da-0242ac130006; // Replace with your Stormglass API key
+const apiKey = '92e13e58-3c03-11f0-89da-0242ac130006-92e13ec6-3c03-11f0-89da-0242ac130006'; // Replace with your Stormglass API key
 const reportEl = document.getElementById('report');
 
 const params = ['waveHeight', 'wavePeriod', 'windSpeed', 'windDirection'];
