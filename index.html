@@ -1,15 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GoNoGo Surf Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoNoGo Surf Report: California</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #0077b6; }
+    .spot { margin-bottom: 20px; }
+  </style>
 </head>
 <body>
-  <h1>GoNoGo Surf Report</h1>
-  <p>Select a region below:</p>
-  <ul>
-    <li><a href="regions/california.html">California</a></li>
-  </ul>
+
+  <h1>Santa Cruz County Surf Report</h1>
+
+  <div class="spot" id="capitola">Loading Capitola forecast...</div>
+  <div class="spot" id="pleasure-point">Loading Pleasure Point forecast...</div>
+  <div class="spot" id="davenport">Loading Davenport forecast...</div>
+  <div class="spot" id="scotts-creek">Loading Scotts Creek forecast...</div>
+  <div class="spot" id="waddell-creek">Loading Waddell Creek forecast...</div>
+
+  <script src="regions/california.js"></script> <!-- Make sure this is the correct path -->
 </body>
 </html>

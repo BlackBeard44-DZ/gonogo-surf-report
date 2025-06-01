@@ -2,28 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>GoNoGo - California</title>
-  <script defer src="california.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoNoGo Surf Report – California</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eaf7ff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #0077b6;
+    }
+    .spot {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px auto;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      max-width: 500px;
+    }
+  </style>
 </head>
 <body>
+
   <h1>Santa Cruz County Surf Forecast</h1>
-  
-  <div id="santa-cruz-report">
-    <h2>Santa Cruz</h2>
-    <div id="santa-cruz">Loading Santa Cruz forecast...</div>
-  </div>
+  <div class="spot" id="capitola">Loading Capitola forecast...</div>
+  <div class="spot" id="pleasure-point">Loading Pleasure Point forecast...</div>
+  <div class="spot" id="davenport">Loading Davenport forecast...</div>
+  <div class="spot" id="scotts-creek">Loading Scotts Creek forecast...</div>
+  <div class="spot" id="waddell-creek">Loading Waddell Creek forecast...</div>
 
-  <div id="pleasure-point-report">
-    <h2>Pleasure Point</h2>
-    <div id="pleasure-point">Loading Pleasure Point forecast...</div>
-  </div>
-
-  <div id="steamer-lane-report">
-    <h2>Steamer Lane</h2>
-    <div id="steamer-lane">Loading Steamer Lane forecast...</div>
-  </div>
-
-  </div>
+  <!-- Load JavaScript file -->
+  <script src="regions/california.js"></script>
 </body>
-</html>
-
+</html
